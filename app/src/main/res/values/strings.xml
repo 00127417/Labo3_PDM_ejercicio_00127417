@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Labo3_PDM_ejercicio_00127417</string>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+</resources>

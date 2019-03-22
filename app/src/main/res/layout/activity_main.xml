@@ -3,27 +3,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"/>
+        android:hint="@string/hint_name"
+        android:paddingTop="@dimen/paddingTop_standar" />
+
     <EditText
+        android:id="@+id/et_lastname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Lastname"/>
+        android:hint="@string/hint_lastname"
+        android:paddingTop="@dimen/paddingTop_standar" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:paddingTop="@dimen/paddingTop_standar" />
+
     <Spinner
         android:id="@+id/spinner_gender"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/paddingTop_standar" />
 
     <Button
+        android:id="@+id/action_submmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="submmit"/>
+        android:layout_marginTop="@dimen/paddingTop_standar"
+        android:text="@string/action_text" />
 
 
 </LinearLayout>

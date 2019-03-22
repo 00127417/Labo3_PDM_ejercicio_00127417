@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">Labo3_PDM_ejercicio_00127417</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_lastname">Lastname</string>
+    <string name="hint_email">Email</string>
+    <string name="action_text">submmit</string>
+    <string name="tv_gender">Gender</string>
+    <string name="tv_name">Name</string>
+    <string name="tv_lastname">LastName</string>
+    <string name="tv_Email">Email</string>
 
     <string-array name="gender">
-        <item>Select Gender</item>
         <item>Female</item>
         <item>Male</item>
     </string-array>

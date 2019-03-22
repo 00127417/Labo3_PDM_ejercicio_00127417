@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".SecondActivity">
+    tools:context=".ThirdActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:text="@string/tv_name" />
 
         <TextView
-            android:id="@+id/tv_name_second"
+            android:id="@+id/tv_name_third"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -39,7 +39,7 @@
             android:text="@string/tv_lastname" />
 
         <TextView
-            android:id="@+id/tv_lastname_second"
+            android:id="@+id/tv_lastname_third"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -57,7 +57,7 @@
             android:text="@string/tv_Email" />
 
         <TextView
-            android:id="@+id/tv_email_second"
+            android:id="@+id/tv_email_third"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -76,16 +76,9 @@
             android:text="@string/tv_gender" />
 
         <TextView
-            android:id="@+id/tv_gender_second"
+            android:id="@+id/tv_gender_third"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
     </LinearLayout>
-
-    <Button
-        android:id="@+id/action_share"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="share" />
-
 </LinearLayout>
